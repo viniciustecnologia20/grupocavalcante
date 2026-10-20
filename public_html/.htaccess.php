@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{21} 80
+RewriteRule ^(.*)$ http://grupocavalcante.net.br/$1 [R,L
