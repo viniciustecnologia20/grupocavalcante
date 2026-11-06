@@ -155,28 +155,7 @@ if (!empty($itensOrdem)) {
 
 <body>
     <div class="d-flex" id="wrapper">
-        <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light">
-                <div class="d-flex align-items-center">
-                    <a href="perfil_usuario.php" class="text-decoration-none text-dark">
-                        <i class="bi bi-person me-2"></i>
-                        <span id="userName" class="me-3"></span>
-                    </a>
-                </div>
-            </div>
-            <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="home.html"><i class="bi bi-house-fill"></i> Home</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="pagina_consulta.html"><i class="bi bi-receipt-cutoff"></i> Conferencia NFe</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="ordemCompraMenu.php"><i class="bi bi-cart3"></i> Ordem de compra</a>
-            </div>
-        </div>
-
-        <div id="page-content-wrapper">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-                <div class="container-fluid">
-                    <button class="btn btn-primary" id="sidebarToggle"><i class="bi bi-list"></i></button>
-                </div>
-            </nav>
+<?php include __DIR__ . '/includes/menubar.php'; ?>
             <div class="bg-mint-light p-2 text-center" id="btnExportarExcel">
                 <span class="fw-semibold"><i class="bi bi-file-earmark-excel"></i> Exportar para Excel</span>
             </div>

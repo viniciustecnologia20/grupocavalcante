@@ -46,26 +46,7 @@
     <body>
         <div class="d-flex " id="wrapper">
             <!-- Sidebar-->
-            <div class="border-end bg-white toggled" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">Opções</div>
-                <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="home.html"><i class="bi bi-house-fill"></i> Home</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="pagina_consulta.html"><i class="bi bi-receipt-cutoff"></i> Conferencia de quantidade NFe</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="pagina_conferencia.html"><i class="bi bi-ui-checks"></i> Conferencia Cadastral</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="pagina_formacão_de_preço.html"><i class="bi bi-coin"></i> Formação de Preço</a>
-                </div>
-            </div>
-            <!-- Page content wrapper-->
-            <div class= "" id="page-content-wrapper">
-                <!-- Top navigation-->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-                    <div class="container-fluid">
-                        <button class="btn btn-primary" id="sidebarToggle"><i class="bi bi-list"></i></button>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        </div>
-                    </div>
-                </nav>
+<?php $menubarRecolhida = true; include __DIR__ . '/includes/menubar.php'; ?>
             <!--conteudo da pagina-->
             <!--card com o conteudo-->
             <div class="card shadow p-3 mb-5 border border-dark rounded-top">
