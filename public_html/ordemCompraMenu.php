@@ -59,41 +59,7 @@
 <body>
     <div class="d-flex" id="wrapper">
         <!-- Sidebar-->
-        <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light">
-                <div class="d-flex align-items-center">
-                    <a href="perfil_usuario.php" class="text-decoration-none text-dark">
-                        <i class="bi bi-person me-2"></i>
-                        <span id="userName" class="me-3"></span>
-                    </a>
-                </div>
-            </div>
-
-            <script>
-                // Define o conteúdo do elemento span com o nome do usuário
-                var usuario = localStorage.getItem("usuario");
-                document.getElementById("userName").innerText = usuario;
-            </script>
-
-            <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="home.html"><i class="bi bi-house-fill"></i> Home</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="pagina_consulta.html"><i class="bi bi-receipt-cutoff"></i> Conferencia de quantidade NFe</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="pagina_conferencia.html"><i class="bi bi-ui-checks"></i> Conferencia Cadastral</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="pagina_formacão_de_preço_manu.php"><i class="bi bi-coin"></i> Formação de Preço</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="ordemCompraMenu.php"><i class="bi bi-cart-check-fill"></i> Ordem de compra</a>
-            </div>
-        </div>
-
-        <!-- Page content wrapper-->
-        <div id="page-content-wrapper" class="w-100">
-            <!-- Top navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-                <div class="container-fluid">
-                    <button class="btn btn-primary" id="sidebarToggle"><i class="bi bi-list"></i></button>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-                </div>
-            </nav>
+<?php include __DIR__ . '/includes/menubar.php'; ?>
 
             <!-- Conteudo da pagina -->
             <div class="container-fluid p-4">

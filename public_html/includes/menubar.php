@@ -1,10 +1,11 @@
 <?php
 /**
  * Menubar compartilhada (sidebar + barra superior).
+ * Defina $menubarRecolhida = true antes do include para iniciar a sidebar recolhida.
  * Abre <div id="page-content-wrapper">, que deve ser fechado pela pagina que a inclui.
  */
 ?>
-<div class="border-end bg-white" id="sidebar-wrapper">
+<div class="border-end bg-white<?= !empty($menubarRecolhida) ? ' toggled' : '' ?>" id="sidebar-wrapper">
             <div class="sidebar-heading border-bottom bg-light">
                 <div class="d-flex align-items-center">
                   <a href="perfil_usuario.php" class="text-decoration-none text-dark">
