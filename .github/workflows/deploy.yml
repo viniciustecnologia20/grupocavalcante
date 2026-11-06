@@ -8,11 +8,15 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: FTP Deploy Locaweb
-      uses: locaweb/ftp-deploy@1.0.0
+    - name: Checkout dos arquivos
+      uses: actions/checkout@v4
       with:
-        host: ${{ secrets.HOST }} 
-        user: ${{ secrets.USER }}
+        fetch-depth: 2
+        
+    - name: FTP Deploy Rapido
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.HOST }}
+        username: ${{ secrets.USER }}
         password: ${{ secrets.PASS }}
-        localDir: "."
+        server-dir: ./
