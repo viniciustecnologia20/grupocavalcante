@@ -29,6 +29,7 @@
                     <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                     <path fill-rule="evenodd" d="M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
                     </svg>Formação de Preço</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="ordemCompraMenu.php"><i class="bi bi-cart-check-fill"></i> Ordem de compra</a>
                 </div>
             </div>
             <!-- Page content wrapper-->
