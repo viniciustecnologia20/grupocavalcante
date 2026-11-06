@@ -75,10 +75,10 @@ session_start();
                             <a href="pagina_operação_conjunta.html" class="nav-link active">Ação Consolidada</a>
                         </li>
                         <li class="nav-item me-2">
-                            <a href="pagina_consulta.html" class="nav-link">Conferencia de quantidade NFe</a>
+                            <a href="pagina_consulta.php" class="nav-link">Conferencia de quantidade NFe</a>
                         </li>
                         <li class="nav-item me-2">
-                            <a href="pagina_conferencia.html" class="nav-link ">Conferencia Cadastral</a>
+                            <a href="pagina_conferencia.php" class="nav-link ">Conferencia Cadastral</a>
                         <li class="nav-item">
                             <a href="pagina_formacão_de_preço.html" class="nav-link ">Formação de Preço</a>
                         </li>

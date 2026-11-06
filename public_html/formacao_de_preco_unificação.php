@@ -60,12 +60,12 @@
                 <!--segunda opção do card-->
                 <h5 class="card-title text-primary">Conferencia de quantidade NFe</h5>
                 <p class="card-text centralizar-esquerda">Nesta opção voce pode fazer uma Conferencia de quantidade NFe obtendo resultados separadamente utilizando arquivos ( TXT, XML ).</p>
-                <a type="submit" href="pagina_consulta.html" class="btn btn-outline-info btn-lg">Entrar</a>
+                <a type="submit" href="pagina_consulta.php" class="btn btn-outline-info btn-lg">Entrar</a>
                 <hr>
                 <!--terceira opção do card-->
                 <h5 class="card-title text-primary">Conferencia Cadastral</h5>
                 <p class="card-text centralizar-esquerda">Nesta opção voce pode fazer uma Conferencia Cadastral obtendo resultados separadamente utilizando arquivos ( CSV, XML ).</p>
-                <a type="submit" href="pagina_conferencia.html" class="btn btn-outline-info btn-lg">Entrar</a>
+                <a type="submit" href="pagina_conferencia.php" class="btn btn-outline-info btn-lg">Entrar</a>
                 <!--terceira opção do card-->     
                 <hr>  
                 <h5 class="card-title text-primary">Formação de Preço</h5>
